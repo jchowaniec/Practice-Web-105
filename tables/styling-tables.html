@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+    table {
+      margin: 20px auto;
+    }
+  </style>
+  <body>
+    <nav>
+      <a href="index.html">Table Basics</a>
+      <a href="styling-tables.html">Styling Tables</a>
+      <a href="calendar.html">Creating a Calendar</a>
+    </nav>
+    <style>
+      th {
+        background-color: chartreuse;
+
+        border: 2px solid blue;
+      }
+      td {
+        border: 2px solid blue;
+        text-align: center;
+      }
+      td:hover {
+        background-color: black;
+        color: aliceblue;
+      }
+    </style>
+    <table width="50%">
+      <tr>
+        <th>Times</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <th>9:00</th>
+        <td rowspan="9" ; colspan="5">Work</td>
+        <td rowspan="2">Soccer practice</td>
+        <td>meet with Charles</td>
+      </tr>
+      <tr>
+        <th>10:00</th>
+        <td>get paper for monday</td>
+      </tr>
+      <tr>
+        <th>11:00</th>
+        <td rowspan="2">Lunch</td>
+        <td rowspan="2">lunch</td>
+      </tr>
+      <tr>
+        <th>12:00</th>
+      </tr>
+      <tr>
+        <th>1:00</th>
+        <td rowspan="4">Free time</td>
+        <td>go swimming</td>
+      </tr>
+      <tr>
+        <th>2:00</th>
+        <td rowspan="3">Free time</td>
+      </tr>
+      <tr>
+        <th>3:00</th>
+      </tr>
+      <tr>
+        <th>4:00</th>
+      </tr>
+      <tr>
+        <th>5:00</th>
+        <td>Return Home</td>
+        <td>Pick up Dinner</td>
+      </tr>
+      <tr>
+        <th>6:00</th>
+        <td colspan="5">Clean up</td>
+        <td>Dinner</td>
+        <td>Dinner</td>
+      </tr>
+    </table>
+  </body>
+</html>
